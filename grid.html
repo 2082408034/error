@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        .container{
+            background-color:aquamarine;
+            display:grid;
+            justify-content:center;
+            grid-template-rows:200px 200px 200px 200px;
+            grid-template-columns:200px 200px 200px;
+            grid-gap:20px;
+        }
+        .header{
+            background-color:brown;
+            grid-column-start:1;
+            grid-column-end:4;
+        }
+        .sidebar{
+            background-color:blueviolet;
+            grid-row-start:2;
+            grid-row-end:4;
+        }
+        .content-1{
+            background-color:green;
+            grid-column-start:2;
+            grid-column-end:4;
+        }
+        .content-2{
+            background-color:yellow;
+
+        }
+        .content-3{
+            background-color:violet;
+        } 
+        .footer{
+            background-color:blue;
+        }
+</style>
+    
+    <link rel="style sheet" href="style sheet.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="header">header</div>
+        <div class="sidebar">sidebar</div>
+        <div class="content-1">content-1</div>
+        <div class="content-2">content-2</div>
+        <div class="content-3">content-3</div>
+        <div class="footer">footer</div>
+    </div>  
+</body>
+</html>
